@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+html {
+    background-color: #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#where_the_hype_happens_e42c4d_deadbeef {
+    margin: auto;
+    margin-top: 40vh;
+    width: 50vw;
+}
