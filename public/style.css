@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
+
+html {
+    background-color: #ddd;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#title {
+    margin-top: 30vh;
+    font-size: 2em;
+    font-family: 'Amatic SC', cursive;
+}
+
+#where_the_hype_happens_e42c4d_deadbeef {
+    margin: auto;
+    width: 50vw;
+}
