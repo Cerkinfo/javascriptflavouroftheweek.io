@@ -1,10 +1,15 @@
 class HypeGenerator {
     constructor(public lang: string, public framework: string) { }
-    run() {
+    string_factory() {
         return "<h1>" + this.lang + " - " + this.framework + "</h1>";
+    }
+
+    render(element_id: string, callback: any) {
+        document.getElementById(element_id).innerHTML = this.string_factory();
+        callback();
     }
 };
 
-var engine = new HypeGenerator("TypeScript 1", "Ember.js");
+new HypeGenerator("TypeScript 1", "Ember.js").render('where_the_hype_happens_e42c4d_deadbeef', ()=>{});
 
-document.getElementById('where_the_hype_happens_e42c4d_deadbeef').innerHTML = engine.run();
+
