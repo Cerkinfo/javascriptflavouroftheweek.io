@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100');
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC:700');
 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
 html {
     background-color: #ddd;
     text-align: center;
@@ -8,12 +14,16 @@ html {
 }
 
 #title {
+    opacity: 0;
+    animation: fadeIn 1.0s ease-in 1 forwards;
     margin-top: 30vh;
     font-size: 2em;
     font-family: 'Amatic SC', cursive;
 }
 
 #where_the_hype_happens_e42c4d_deadbeef {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in 1 forwards;
     margin: auto;
     width: 50vw;
 }
