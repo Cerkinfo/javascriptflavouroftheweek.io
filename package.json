@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Cerkinfo/javascriptflavouroftheweek.io/issues"
   },
-  "homepage": "https://github.com/Cerkinfo/javascriptflavouroftheweek.io#readme"
+  "homepage": "https://github.com/Cerkinfo/javascriptflavouroftheweek.io#readme",
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  }
 }
