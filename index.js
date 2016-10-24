@@ -31,6 +31,19 @@ app.get('/', (req, res) => {
 
 });
 
+app.get('/:language/:framework', (req, res) => {
+    try {
+        const render = require(FOLDER_ENTRY_POINT + req.params.language + '/' + req.params.framework + '/' + COMPILATION_FILE);
+        render((js) => {
+            res.render('index', {
+                js: js,
+            });
+        });
+    } catch (e) {
+        res.redirect('404');
+    }
+});
+
 app.use((req, res) => {
     res.status(404);
     res.render('404');
