@@ -31,6 +31,17 @@ app.get('/', (req, res) => {
 
 });
 
+app.use((req, res) => {
+    res.status(404);
+    res.render('404');
+});
+
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500);
+    res.render('500');
+});
+
 app.listen(app.get('port'), function () {
     console.log("Express started on port : " + app.get('port') + " press Ctrl + C to stop.");
 });
