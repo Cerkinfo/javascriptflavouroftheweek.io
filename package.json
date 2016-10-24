@@ -16,8 +16,9 @@
     "url": "https://github.com/Cerkinfo/javascriptflavouroftheweek.io/issues"
   },
   "homepage": "https://github.com/Cerkinfo/javascriptflavouroftheweek.io#readme",
-  "dependencies": {
+  "devDependencies": {
     "express": "^4.14.0",
-    "express-handlebars": "^3.0.0"
+    "express-handlebars": "^3.0.0",
+    "typescript": "^2.0.3"
   }
 }
