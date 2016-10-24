@@ -1,0 +1,19 @@
+{
+  "name": "javascriptflavouroftheweek.io",
+  "version": "1.0.0",
+  "description": "javascriptflavouroftheweek.io is a nextgen high volatility website, given no promises, using state of art compilation solution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cerkinfo/javascriptflavouroftheweek.io.git"
+  },
+  "author": "cerkinfo",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/Cerkinfo/javascriptflavouroftheweek.io/issues"
+  },
+  "homepage": "https://github.com/Cerkinfo/javascriptflavouroftheweek.io#readme"
+}
